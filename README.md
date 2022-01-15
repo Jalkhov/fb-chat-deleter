@@ -13,4 +13,5 @@ Use:
 - Voila!
 
 # TODO
-[x] Autoclose tabs after chats deletion
+
+- [ ] Autoclose tabs after chats deletion
