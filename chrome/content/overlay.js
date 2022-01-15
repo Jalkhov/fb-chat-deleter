@@ -48,10 +48,3 @@ function closeTabs(){
     }
 }
 */
-
-
-function executeEval(){
-  var code = document.getElementById('code2eval');
-  eval(code.value);
-    
-}
