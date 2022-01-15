@@ -1,0 +1,9 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#fbchatsdeleter-button {
+  list-style-image: url(icon-24.png);
+}
+
+toolbar[iconsize="small"] #fbchatsdeleter-button {
+  list-style-image: url(icon-16.png);
+}

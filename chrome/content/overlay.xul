@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://fbchatsdeleter/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://fbchatsdeleter/locale/translations.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         id="fbchatsdeleter-overlay">
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="strings"
+                  src="chrome://fbchatsdeleter/locale/strings.properties">
+    </stringbundle>
+  </stringbundleset>
+
+  <script type="application/javascript" src="overlay.js"/>
+  
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional"
+                   id="fbchatsdeleter-button"
+                   oncontextmenu="event.preventDefault();"
+                   label="FBChatDeleter"
+                   type="menu-button">
+      <menupopup id="popupmenu">
+       <menuitem label="&fbchatsdeleter.delete;" onclick="Delete()"/>
+       <menuitem label="&fbchatsdeleter.confirmDelete;" onclick="confirmDelete()" />
+       <!--<menuitem label="&fbchatsdeleter.closeTabs;" onclick="closeTabs()" />-->
+      </menupopup>
+    </toolbarbutton>
+  </toolbarpalette>
+  <!--
+  <toolbox id="navigator-toolbox">
+    <toolbar id="jsevaltoolbar" toolbarname="JS Eval" class="chromeclass-toolbar" context="toolbar-context-menu">
+      <hbox flex="1">
+        <toolbaritem>
+            <textbox id="code2eval" multiline="true" rows="5" cols="100"  flex="1"/>
+            <toolbarbutton label="Ejecutar" oncommand="executeEval()"/>
+        </toolbaritem>
+      </hbox>
+    </toolbar>
+  </toolbox>
+  -->
+</overlay>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>fbchatdeleter@Jalkhov</em:id>
+    <em:iconURL>chrome://fbchatsdeleter/skin/icon-64.png</em:iconURL>
+    <em:version>0.1</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>false</em:bootstrap>
+    <em:name>FB Chat Deleter</em:name>
+    <em:description>Fast delete multiple Facebook chats
+
+WARNING: This addon only works in base version of Facebook (m.facebook.com)
+
+Use: 
+- Open all chats you want delete
+- Press "Delete" in button popup
+- Wait to the tabs finish recharge
+- Press "Confirm delete"
+- Voila!
+
+Tabs autoclose has not been implemented yet. Soon ;)
+
+    </em:description>
+    <em:creator>Jalkhov &lt;ing.torcattsoto.2020@&gt;</em:creator>
+    <em:homepageURL>https://github.com/Jalkhov/fb-chat-deleter/</em:homepageURL>
+    <em:updateURL>https://raw.githubusercontent.com/JustOff/moon-tester-tool/master/update.xml</em:updateURL>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+        <em:minVersion>27.0.0a1</em:minVersion>
+        <em:maxVersion>29.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
