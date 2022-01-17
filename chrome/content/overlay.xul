@@ -10,7 +10,7 @@
   </stringbundleset>
 
   <script type="application/javascript" src="overlay.js"/>
-  
+
   <toolbarpalette id="BrowserToolbarPalette">
     <toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional"
                    id="fbchatsdeleter-button"

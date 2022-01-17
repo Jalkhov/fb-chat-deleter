@@ -10,7 +10,7 @@ function TabsGetter(url){
 
         var tab = gBrowser.getBrowserForTab(currentTab);
         var tabUrl = tab.contentWindow.location.href;
-        
+
         if (tabUrl.includes(targetUrl)) {
             tabs.push(tab);
         }
