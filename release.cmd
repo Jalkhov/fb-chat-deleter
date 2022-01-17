@@ -1,8 +1,7 @@
 @echo off
-set VER=0.1
+set VER=0.2
 
 sed -i -E "s/version>.+?</version>%VER%</" install.rdf
-sed -i -E "s/version>.+?</version>%VER%</; s/download\/.+?\/fb-chat-deleter-.+?\.xpi/download\/%VER%\/fb-chat-deleter-%VER%\.xpi/" update.xml
 
 set XPI=fb-chat-deleter-%VER%.xpi
 if exist %XPI% del %XPI%
