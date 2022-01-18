@@ -2,4 +2,5 @@ content   fbchatsdeleter    chrome/content/
 skin      fbchatsdeleter    classic/1.0        chrome/skin/
 locale    fbchatsdeleter en-US chrome/locale/en-US/
 locale    fbchatsdeleter es-ES chrome/locale/es-ES/
-overlay   chrome://browser/content/browser.xul   chrome://fbchatsdeleter/content/overlay.xul
+overlay   chrome://browser/content/browser.xul		chrome://fbchatsdeleter/content/overlay.xul
+style 	chrome://global/content/customizeToolbar.xul	 chrome://fbchatsdeleter/skin/overlay.css
