@@ -3,7 +3,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>fbchatdeleter@Jalkhov</em:id>
     <em:iconURL>chrome://fbchatsdeleter/skin/icon-64.png</em:iconURL>
-    <em:version>0.2</em:version>
+    <em:version>0.3</em:version>
     <em:type>2</em:type>
     <em:name>FB Chat Deleter</em:name>
     <em:description>Fast delete multiple Facebook chats

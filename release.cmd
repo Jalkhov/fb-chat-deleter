@@ -1,5 +1,5 @@
 @echo off
-set VER=0.2
+set VER=0.3
 
 sed -i -E "s/version>.+?</version>%VER%</" install.rdf
 
