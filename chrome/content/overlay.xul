@@ -16,11 +16,11 @@
                    id="fbchatsdeleter-button"
                    oncontextmenu="event.preventDefault();"
                    label="FBChatDeleter"
-                   type="menu-button">
+                   type="menu">
       <menupopup id="popupmenu">
-       <menuitem label="&fbchatsdeleter.delete;" onclick="Delete()" class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-1.png" />
-       <menuitem label="&fbchatsdeleter.confirmDelete;" onclick="confirmDelete()" class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-2.png" />
-       <!--<menuitem label="&fbchatsdeleter.closeTabs;" onclick="closeTabs()" />-->
+        <menuitem label="&fbchatsdeleter.delete;" onclick="Delete()" class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-1.png" />
+        <menuitem label="&fbchatsdeleter.confirmDelete;" onclick="confirmDelete()" class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-2.png" />
+        <!--<menuitem label="&fbchatsdeleter.closeTabs;" onclick="closeTabs()" />-->
       </menupopup>
     </toolbarbutton>
   </toolbarpalette>
