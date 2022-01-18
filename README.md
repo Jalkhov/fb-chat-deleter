@@ -1,16 +1,18 @@
+![](chrome/skin/icon-64.png)
+
 # FB Chat Deleter
 
-Fast delete multiple Facebook chats
+Delete multiple facebook chats simultaneously.
 
-<b>WARNING:</b> This addon only works in base version of Facebook (m.facebook.com)
-Only compatible with Pale Moon
+**WARNING:** This extension only works on Facebook domain [m.facebook.com](http://m.facebook.com/)
 
-Use: 
-- Open all chats you want delete
-- Press "Delete" in button popup
-- Wait to the tabs finish recharge
-- Press "Confirm delete"
-- Voila!
+# USAGE
+
+1. Open the tabs of all the chats you want to delete.
+2. Click "Delete".
+3. Wait for the tabs to finish reloading.
+4. Click "Confirm deletion".
+5. Voila!
 
 # TODO
 

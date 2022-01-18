@@ -6,17 +6,16 @@
     <em:version>0.3</em:version>
     <em:type>2</em:type>
     <em:name>FB Chat Deleter</em:name>
-    <em:description>Fast delete multiple Facebook chats
+    <em:description>Delete multiple facebook chats simultaneously.
 
-WARNING: This addon only works in base version of Facebook (m.facebook.com)
+WARNING: This extension only works on Facebook domain m.facebook.com
 
-Use:
-- Open all chats you want delete
-- Press "Delete" in button popup
-- Wait to the tabs finish recharge
-- Press "Confirm delete"
-- Voila!
-    </em:description>
+USAGE
+    1. Open the tabs of all the chats you want to delete.
+    2. Click "Delete".
+    3. Wait for the tabs to finish reloading.
+    4. Click "Confirm deletion".
+    5. Voila!</em:description>
     <em:creator>Jalkhov &lt;ing.torcattsoto.2020@gmail.com&gt;</em:creator>
     <em:homepageURL>https://github.com/Jalkhov/fb-chat-deleter/</em:homepageURL>
     <em:targetApplication>
