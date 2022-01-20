@@ -7,3 +7,7 @@
 toolbar[iconsize="small"] #fbchatsdeleter-button {
   list-style-image: url(icon-16.png);
 }
+
+.fbchatdeleter-tooltip-version {
+  font-weight: bold;
+}

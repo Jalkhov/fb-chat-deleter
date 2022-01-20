@@ -1,26 +1,28 @@
 let tabs4close = [];
 
-function TabsGetter(url){
+function TabsGetter(url, saveTabs = false) {
     var tabs = [];
     var numTabs = gBrowser.tabContainer.childNodes.length;
     var targetUrl = url;
 
     for (var x = 0; x < numTabs; x++) {
-        var currentTab = gBrowser.tabContainer.childNodes[x];
-
-        var tab = gBrowser.getBrowserForTab(currentTab);
-        var tabUrl = tab.contentWindow.location.href;
+        var tab = gBrowser.tabContainer.childNodes[x];
+        var tabBrowser = gBrowser.getBrowserForTab(tab);
+        var tabUrl = tabBrowser.contentWindow.location.href;
 
         if (tabUrl.includes(targetUrl)) {
-            tabs.push(tab);
+            tabs.push(tabBrowser);
+            if (saveTabs) {
+                tabs4close.push(tab);
+            }
         }
     }
 
     return tabs;
 }
 
-function Delete(){
-    var tabs = TabsGetter("m.facebook.com/messages/read/");
+function Delete() {
+    var tabs = TabsGetter("m.facebook.com/messages/read/", true);
 
     for (var x = 0; x < tabs.length; x++) {
         var tabDoc = tabs[x].contentWindow.document;
@@ -29,22 +31,19 @@ function Delete(){
     }
 }
 
-function confirmDelete(){
+function confirmDelete() {
     var tabs = TabsGetter("m.facebook.com/messagingconfirmatio");
-    tabs4close = tabs
 
     for (var x = 0; x < tabs.length; x++) {
         var tabDoc = tabs[x].contentWindow.document;
         var confirmLink = tabDoc.getElementsByClassName("bk bm")[0];
         confirmLink.click();
-
     }
 }
 
-/*
-function closeTabs(){
-    for (var x = 0; x < tabs4close.length; x++){
-        tabs4close[x].close()
+function closeTabs() {
+    console.log();
+    for (var x = 0; x < tabs4close.length; x++) {
+        gBrowser.removeTab(tabs4close[x]);
     }
 }
-*/

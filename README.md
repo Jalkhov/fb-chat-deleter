@@ -4,7 +4,9 @@
 
 Delete multiple facebook chats simultaneously.
 
-**WARNING:** This extension only works on Facebook domain [m.facebook.com](http://m.facebook.com/)
+**WARNING:** This extension only works on Facebook domain [m.facebook.com](http://m.facebook.com/).
+
+Only available for **[Pale Moon](https://addons.palemoon.org/addon/fb-chat-deleter/)**.
 
 # USAGE
 
@@ -13,7 +15,8 @@ Delete multiple facebook chats simultaneously.
 3. Wait for the tabs to finish reloading.
 4. Click "Confirm deletion".
 5. Voila!
+5. As an extra you can click "Close tabs" to close all affected tabs.
 
 # TODO
 
-- [ ] Autoclose tabs after chats deletion
+- [x] Close tabs after chats deletion

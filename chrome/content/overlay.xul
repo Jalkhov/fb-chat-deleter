@@ -11,16 +11,24 @@
 
   <script type="application/javascript" src="overlay.js"/>
 
+  <popupset>
+    <tooltip id="fbchatdeleter-tooltip">
+      <label class="fbchatdeleter-tooltip-version" value="FB Chat Deleter 1.0" />
+      <label class="fbchatdeleter-tooltip-author" value="By Jalkhov" />
+    </tooltip>
+  </popupset>
+
   <toolbarpalette id="BrowserToolbarPalette">
     <toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional"
                    id="fbchatsdeleter-button"
                    oncontextmenu="event.preventDefault();"
                    label="FBChatDeleter"
-                   type="menu">
+                   type="menu"
+                   tooltip="fbchatdeleter-tooltip">
       <menupopup id="popupmenu">
         <menuitem label="&fbchatsdeleter.delete;" onclick="Delete()" class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-1.png" />
         <menuitem label="&fbchatsdeleter.confirmDelete;" onclick="confirmDelete()" class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-2.png" />
-        <!--<menuitem label="&fbchatsdeleter.closeTabs;" onclick="closeTabs()" />-->
+        <menuitem label="&fbchatsdeleter.closeTabs;" onclick="closeTabs()"  class="menuitem-iconic" image="chrome://fbchatsdeleter/skin/step-3.png" />
       </menupopup>
     </toolbarbutton>
   </toolbarpalette>
