@@ -4,7 +4,7 @@
 
 Delete multiple facebook chats simultaneously.
 
-**WARNING:** This extension only works on Facebook domain [m.facebook.com](http://m.facebook.com/).
+**WARNING:** This extension only works on most basic version of Facebook [m.facebook.com](http://m.facebook.com/).
 
 Only available for **[Pale Moon](https://addons.palemoon.org/addon/fb-chat-deleter/)**.
 
