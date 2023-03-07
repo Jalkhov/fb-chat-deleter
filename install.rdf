@@ -8,7 +8,7 @@
     <em:name>FB Chat Deleter</em:name>
     <em:description>Delete multiple facebook chats simultaneously.
 
-WARNING: This extension only works on Facebook domain m.facebook.com
+WARNING: This extension only works on most basic version of Facebook (m.facebook.com)
 
 USAGE
     1. Open the tabs of all the chats you want to delete.
@@ -22,7 +22,7 @@ USAGE
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
         <em:minVersion>27.0.0a1</em:minVersion>
-        <em:maxVersion>29.*</em:maxVersion>
+        <em:maxVersion>32.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
