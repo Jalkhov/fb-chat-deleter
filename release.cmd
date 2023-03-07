@@ -1,7 +1,7 @@
 @echo off
 set VER=1.1
 
-sed -i -e "s/version>.+?</version>%VER%</" install.rdf
+sed -i -r "s/version>.+?</version>%VER%</" install.rdf
 
 set XPI=fb-chat-deleter-%VER%.xpi
 if exist %XPI% del %XPI%
